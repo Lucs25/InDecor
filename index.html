@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InDecor</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral:wght@700&display=swap"
+    rel="stylesheet">
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <header id="event-description">
+    <div id="disclaimer">
+      <h2>InDecor</h2>
+      <p class="about-event">Um evento para revolucionar a sua criatividade</p>
+      <p>Data do evento:</p>
+      <p class="event-date">Sexta-feira, 1 de Dezembro de 2023, a partir das 14h</p>
+    </div>
+    <div id="subscription-form">
+      <p>Preencha o formulário para receber detalhes do evento</p>
+      <form action="">
+        <div class="form-group">
+          <label for="name">Nome:</label>
+          <input type="text" name="name" id="name" placeholder="Digite seu nome">
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" placeholder="Digite seu E-mail">
+        </div>
+        <div class="form-group">
+          <label for="phone">Telefone:</label>
+          <input type="text" name="phone" id="phone" placeholder="Número de Whatsapp">
+        </div>
+        <div class="form-group">
+          <label for="interest">Principal interesse:</label>
+          <select name="interest" id="interest">
+            <option value="" disabled selected>Selecione</option>
+            <option value="apartament">Apartamentos</option>
+            <option value="house">Casas</option>
+            <option value="garden">Jardim</option>
+            <option value="other">Outros</option>
+          </select>
+        </div>
+        <input type="submit" class="btn" value="Quero me inscrever">
+      </form>
+    </div>
+  </header>
+  <section id="key-benefits">
+    <h2>O que você irá aprender:</h2>
+    <div class="benefits">
+      <div class="benefit">
+        <div id="benefit-1" class="benefit-img"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque at voluptatum nobis debitis sequi dolor
+          dicta veritatis omnis illo vel.!</p>
+      </div>
+      <div class="benefit">
+        <div id="benefit-2" class="benefit-img"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque at voluptatum nobis debitis sequi dolor
+          dicta veritatis omnis illo vel.!</p>
+      </div>
+      <div class="benefit">
+        <div id="benefit-3" class="benefit-img"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque at voluptatum nobis debitis sequi dolor
+          dicta veritatis omnis illo vel.!</p>
+      </div>
+  </section>
+  <section id='location'>
+    <div id="address"></div>
+    <div id="about-location"></div>
+  </section>
+</body>
+
+</html>
